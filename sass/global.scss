@@ -1,0 +1,16 @@
+@use './lib/util.scss' as util;
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nanum Myeongjo';
+}
+
+body {
+    @include util.no-scroll();
+    border: 1px solid black;
+}
